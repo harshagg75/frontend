@@ -51,15 +51,17 @@
 
 </head>
 <body class="flex flex-col min-h-screen bg-gray-100 font-sans antialiased">
-    <!-- Nav bar -->
-     <nav class="bg-blue-600 p-4 text-white flex justify-between">
-        <div>
-            <h1 class="text-3xl font-bold">AI Blog Generator</h1>
-        </div>
-        <div>
-            <a href="#" class="text-white hover:underline">Logout</a>
-        </div>
-     </nav>
+<!-- Nav bar -->
+<nav class="bg-blue-600 p-4 text-white flex justify-between ">
+    <div>
+        <h1 class="text-3xl font-bold">AI Blog Generator</h1>
+    </div>
+    <div>
+        <a href="#" class="text-white hover:underline ">Welcome {{ user.username }}</a>
+        <br>
+        <a href="logout" class="text-white hover:underline">Logout</a>
+    </div>
+ </nav>
 
      <br>
      <br>
